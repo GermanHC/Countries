@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { switchMap } from 'rxjs';
 
 import { CountriesService } from '../../services/countries.service';
-import { Country } from '../../interfaces/country';
+import { Country } from '../../interfaces/country.interface';
 
 @Component({
   selector: 'countries-country-page',
